@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.className = "container-fluid"
+ root.id = "root"
 root.render(
   <React.StrictMode>
     <App />

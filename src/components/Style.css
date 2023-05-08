@@ -3,12 +3,14 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    
   }
   
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    font-size: xx-small;
   }
   
   tr:nth-child(even) {
@@ -26,17 +28,23 @@ table {
   }
   form{
     width: auto;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin: 0.5%;
   }
   #addTransactionDiv{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 10px;
     width: 90%;
+    
+  }
+  #root{
+    margin:auto;
+    padding: 5px;
+    background-color: azure;
   }
   
